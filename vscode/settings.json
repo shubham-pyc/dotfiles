@@ -1,0 +1,53 @@
+{
+    "files.exclude": {
+        "**/__init__.*": true,
+        "**/*.pyc": true
+    },
+    "breadcrumbs.enabled": true,
+    "window.zoomLevel": 1,
+    "files.associations": {
+        "*.shu":"javascript"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "todo-tree.highlights.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.testing.pytestEnabled": true,
+    "python.jediEnabled": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[python]": {},
+    "editor.lineNumbers": "relative",
+    "python.languageServer": "Microsoft",
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before":["<F4>"],
+            "after":["\"","+","y"]
+        }
+    ],
+    "vim.handleKeys": {
+         "<C-h>": false,
+         "<C-n>" : false,
+         "<C-c>": false,
+         "<C-s>":false,
+         "<C-f>":false,
+         "<C-a>":false
+        },
+        "terminal.integrated.inheritEnv": false,
+        "vim.statusBarColors.searchinprogressmode": ""
+}
